@@ -31,6 +31,8 @@ public class QuanLyVePhim {
         return tongtien;
     }
 
+    //Bổ sung chức năng xóa vé
+
     public void hienthiThongTin(){
         System.out.println("=========DANH SÁCH VÉ ĐÃ BÁN=========");
         for(Ve ve: dsVe){
