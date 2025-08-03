@@ -1,3 +1,5 @@
+package working_dir.Cau3_4_test.OOP;
+
 public class KhachHang {
     private String maKH;
     private String tenKH;

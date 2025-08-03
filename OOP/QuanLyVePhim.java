@@ -1,3 +1,5 @@
+package working_dir.Cau3_4_test.OOP;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,6 +34,16 @@ public class QuanLyVePhim {
     }
 
     //Bổ sung chức năng xóa vé
+    public void xoaVePhim(String maVe){
+        for(Ve ve: dsVe){
+            if(maVe.equalsIgnoreCase(ve.getMaVe())){
+                dsVe.remove(ve);
+                System.out.println("XÓA VÉ PHIM "+ maVe+ " THÀNH CÔNG");
+                return;
+            }
+        }
+        System.out.println("XÓA VÉ PHIM "+maVe+" KHÔNG THÀNH CÔNG");
+    }
 
     public void hienthiThongTin(){
         System.out.println("=========DANH SÁCH VÉ ĐÃ BÁN=========");

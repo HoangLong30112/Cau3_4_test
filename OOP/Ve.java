@@ -1,6 +1,8 @@
-import java.util.ArrayList;
+package working_dir.Cau3_4_test.OOP;
+
+import working_dir.Cau3_4_test.OOP.KhachHang;
+
 import java.util.Date;
-import java.util.List;
 
 public class Ve {
     private String maVe;

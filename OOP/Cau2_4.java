@@ -1,3 +1,5 @@
+package working_dir.Cau3_4_test.OOP;
+
 import java.util.Date;
 
 class Cau2_4{
@@ -26,6 +28,11 @@ class Cau2_4{
 
         // Hiển thị danh sách vé đã bán
         qlVePhim.hienthiThongTin();
+
+        //Xóa vé phim
+        qlVePhim.xoaVePhim("V00001");
+        qlVePhim.hienthiThongTin();
+
 
         // In tổng tiền tất cả vé đã bán
 //        System.out.println("Tổng tiền thu được từ vé: " + qlVePhim.tongtienVe() + " VNĐ");
